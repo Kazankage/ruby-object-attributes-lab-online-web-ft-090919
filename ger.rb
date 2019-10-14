@@ -29,3 +29,4 @@ end
 wow = Person.new 
 wow.job = "Architect"
 puts wow.job 
+puts wow.job << "s"
