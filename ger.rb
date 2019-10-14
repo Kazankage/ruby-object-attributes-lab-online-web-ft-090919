@@ -17,4 +17,15 @@ apple.breed = "Shiba"
 puts apple.breed
 
 class Person
-  def
+  def job=(person_job)
+    @this_person_job = person_job
+  end
+  
+  def job 
+    @this_person_job
+  end
+end
+
+wow = Person.new 
+wow.job = "Architect"
+puts wow.job 
